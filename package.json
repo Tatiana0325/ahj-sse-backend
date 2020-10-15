@@ -1,0 +1,33 @@
+{
+  "name": "ahj-sse-backend",
+  "version": "1.0.0",
+  "description": "ahj-sse-backend",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatiana0325/ahj-sse-backend.git"
+  },
+  "author": "Tatiana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatiana0325/ahj-sse-backend/issues"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "homepage": "https://github.com/Tatiana0325/ahj-sse-backend#readme",
+  "dependencies": {
+    "forever": "^3.0.2",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.4.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.1"
+  }
+}
